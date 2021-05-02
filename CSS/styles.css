@@ -1,0 +1,271 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+/* ***************************************************************************************** */
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+/* *********************************************************************************************** */
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/* ****************************************************************************************** */
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+  font-weight: 300;
+}
+
+/* ********************************************************************************************** */
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  padding-bottom: 10px;
+}
+
+/* *********************************************************************************************** */
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 13% 10% 13%;
+    text-align: left;
+}
+
+/* *********************************************************************************************** */
+
+/* TITLE IMAGE */
+
+.title-img {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  transform: rotate(24deg);
+  position: absolute;
+  right: 25%;
+  left: 17%;
+}
+
+/* ************************************************************************************************ */
+
+/* FEATURE SECTION */
+
+#features {
+  padding: 7% 15% 6% 15%;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.7rem;
+  padding-top: 5px;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature-adjustments {
+  padding: 3% 5% 5% 5%;
+}
+
+.icon {
+  margin-bottom: 15px;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* ********************************************************************************************* */
+
+/* Testimonials SECTION */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+.carousel-item {
+  padding: 4.5% 13% 4.5% 13%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3.5%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 25px 40px 20px 40px;
+}
+
+/* *************************************************************************************************** */
+
+/* Pricing Section */
+
+#pricing {
+  padding: 60px 100px;
+}
+
+.price-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+.card {
+  margin-top: 20px;
+}
+
+/* **************************************************************************************************** */
+
+/* CTA SECTION */
+
+#cta {
+  padding: 7% 15% 5%;
+}
+
+/* ***************************************************************************************************** */
+
+/* FOOTER SECTION */
+
+#footer {
+  padding: 5% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+.social-icon:hover{
+  color:#ff4c68;
+}
+
+/* ******************************************************************************************************** */
+
+/* MEDIA QUERIES */
+
+@media(max-width:1201px) and (min-width:993px) {
+  .container-fluid {
+    padding: 3% 10% 10% 10%;
+  }
+
+  #features {
+    padding: 7% 10% 6% 10%;
+  }
+
+  .feature-box {
+    padding: 7% 3% 7% 3%;
+  }
+}
+
+@media (max-width:993px) {
+  #title .container-fluid {
+    padding: 3% 13% 7% 13%;
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .section-heading{
+    font-size: 2rem;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotateX(0);
+    padding-top: 30px;
+  }
+
+  #pricing{
+    text-align: center;
+  }
+
+  #pricing .btn{
+    display: inline;
+    width: 45%;
+    height: 1%;
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+}
+
+/* *************************************************************************************** */
